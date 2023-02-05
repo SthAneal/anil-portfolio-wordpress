@@ -1131,6 +1131,10 @@ a.cus-port__contact-me__my-link__item > span {
 	.cus-port__fixed-email{
 		display: none;
 	}
+
+	.cus-port__scroll-to-top{
+		right: 15px !important;
+	}
 }
 
 /* scroll to top styling */

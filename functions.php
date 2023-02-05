@@ -282,6 +282,27 @@ if (!function_exists('cus_port_setup')) {
         }
         add_action('widgets_init', 'cus_port_skill_tools_3_sidebar');
 
+
+        /**
+         * side bar holder for Work history section
+         * 
+         */
+        function cus_port_work_history_sidebar()
+        {
+            // Default Sidebar
+            register_sidebar(
+                array(
+                    'name' => esc_html__('Where have I worked', 'cus-port'),
+                    'id' => 'cus_port_work_history_sidebar',
+                    'description' => esc_html__('Add Work place where I have worked.', 'cus-port'),
+                    // 'before_widget' => '<div class="cus-port__work-item d-flex">',
+                    // 'after_widget' => '</div>',
+                ));
+        }
+        add_action('widgets_init', 'cus_port_work_history_sidebar');
+
+
+
         /**
          *  ---- WIDGETS SECTIONS ----
          */
@@ -479,7 +500,15 @@ if (!function_exists('cus_port_setup')) {
          *  ---- WIDGETS SECTIONS ENDS----
          */
 
+        /**
+         * Initializing the Work history holder widget
+         */
 
+         include_once(get_stylesheet_directory().'/widgets/work-widget.php');
+        
+         /**
+         *  ---- WIDGETS SECTIONS ENDS----
+         */
 
         /**
          * Enqueue public scripts and styles.

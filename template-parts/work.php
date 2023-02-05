@@ -9,7 +9,7 @@
         </div>
     </div>
     <div class="cus-port__work spacer d-flex cus-port__container">
-        <div class="cus-port__work-item d-flex">
+        <!-- <div class="cus-port__work-item d-flex">
             <div class="cus-port__work-item__position d-flex invert-me">Software Developer</div>
             <sub class="cus-port__work-item__date d-flex">June 2021 - April 2022</sub>
             <div class="cus-port__work-item__title d-flex">Ace Contractors Group Pty Ltd</div>
@@ -28,6 +28,8 @@
             <sub class="cus-port__work-item__date d-flex">February 2015 - February 2016</sub>
             <div class="cus-port__work-item__title d-flex">Radiant Info Tech Nepal</div>
             <sub class="cus-port__work-item__place d-flex">Gairidhara, Kathmandu, Nepal</sub>
-        </div>
+        </div> -->
+        <?php dynamic_sidebar('cus_port_work_history_sidebar'); ?>
+
     </div>
 </section>
