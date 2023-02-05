@@ -21,6 +21,10 @@ get_header();
     <div class="cus-port__fixed-email invert-me">
       sth.anil87@gmail.com
     </div>
+    <!-- scroll to top -->
+    <span class="cus-port__scroll-to-top" id="cus-port__scroll-to-top">
+      <i class="fa-solid fa-rocket"></i>
+    </span>
 </main>
 <?php
 get_footer();
