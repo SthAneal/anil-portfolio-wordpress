@@ -1,0 +1,23 @@
+<a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Laisa Islam Ani - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/css-3" title="css 3 icons">Css 3 icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by edt.im - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/files-and-folders" title="files and folders icons">Files and folders icons created by kliwir art - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Us and Up - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/bootstrap" title="bootstrap icons">Bootstrap icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/typescript" title="typescript icons">Typescript icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/sass" title="sass icons">Sass icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/api" title="api icons">Api icons created by phatplus - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/git" title="git icons">Git icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by IconsBox - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/mysql" title="mysql icons">Mysql icons created by Pixel perfect - Flaticon</a>
