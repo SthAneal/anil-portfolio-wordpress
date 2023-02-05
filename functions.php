@@ -302,6 +302,23 @@ if (!function_exists('cus_port_setup')) {
         add_action('widgets_init', 'cus_port_work_history_sidebar');
 
 
+        /**
+         * side bar holder for Work history section
+         * 
+         */
+        function cus_port_project_sidebar()
+        {
+            // Default Sidebar
+            register_sidebar(
+                array(
+                    'name' => esc_html__('Project I have done.', 'cus-port'),
+                    'id' => 'cus_port_project_sidebar',
+                    'description' => esc_html__('Add Projects I have done.', 'cus-port'),
+                    // 'before_widget' => '<div class="cus-port__work-item d-flex">',
+                    // 'after_widget' => '</div>',
+                ));
+        }
+        add_action('widgets_init', 'cus_port_project_sidebar');
 
         /**
          *  ---- WIDGETS SECTIONS ----
@@ -483,12 +500,6 @@ if (!function_exists('cus_port_setup')) {
          include_once(get_stylesheet_directory().'/widgets/intro-experties.php');
 
 
-        /**
-         *  ---- WIDGETS SECTIONS ENDS----
-         * 
-         */
-
-
          /**
          *  Creating the About section's Skill tools holder widget
          */
@@ -497,18 +508,23 @@ if (!function_exists('cus_port_setup')) {
 
 
         /**
-         *  ---- WIDGETS SECTIONS ENDS----
-         */
-
-        /**
          * Initializing the Work history holder widget
          */
 
          include_once(get_stylesheet_directory().'/widgets/work-widget.php');
         
+
+         /**
+         * Initializing the Work history holder widget
+         */
+
+         include_once(get_stylesheet_directory().'/widgets/project-widget.php');
+        
          /**
          *  ---- WIDGETS SECTIONS ENDS----
          */
+
+
 
         /**
          * Enqueue public scripts and styles.

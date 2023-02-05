@@ -9,11 +9,9 @@
         </div>
     </div>
     <div class="cus-port__project main-gutter  d-flex cus-port__container">
-        <div class="cus-port__project-item d-flex spacer-large">
+        <!-- <div class="cus-port__project-item d-flex spacer-large">
             <div class="cus-port__project-item__image d-flex">
                 <iframe 
-                id="project1"
-                title="Inline Frame Example"
                 width="100%"
                 height="100%"
                 src="https://nationallife.com.np/"
@@ -40,8 +38,6 @@
         <div class="cus-port__project-item d-flex spacer-large">
             <div class="cus-port__project-item__image d-flex">
                 <iframe 
-                id="project2"
-                title="Inline Frame Example"
                 width="100%"
                 height="600px"
                 src="https://ppnsports.com/"
@@ -71,8 +67,6 @@
         <div class="cus-port__project-item d-flex spacer-large">
             <div class="cus-port__project-item__image d-flex">
                 <iframe 
-                id="project2"
-                title="Inline Frame Example"
                 width="100%"
                 height="600px"
                 src="http://seismonepal.gov.np/"
@@ -99,8 +93,6 @@
         <div class="cus-port__project-item d-flex spacer-large">
             <div class="cus-port__project-item__image d-flex">
                 <iframe 
-                id="project2"
-                title="Inline Frame Example"
                 width="100%"
                 height="600px"
                 src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6974573923870937088"
@@ -134,8 +126,6 @@
         <div class="cus-port__project-item d-flex spacer-large">
             <div class="cus-port__project-item__image d-flex">
                 <iframe 
-                id="project2"
-                title="Inline Frame Example"
                 width="100%"
                 height="600px"
                 src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7014052681266716672"
@@ -170,8 +160,6 @@
         <div class="cus-port__project-item d-flex spacer-large">
             <div class="cus-port__project-item__image d-flex">
                 <iframe 
-                id="project2"
-                title="Inline Frame Example"
                 width="100%"
                 height="600px"
                 src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6987735501386502144"
@@ -197,7 +185,11 @@
                     <sub>FIREBASE REAL TIME DATABASE</sub>
                 </div>
             </div>
-        </div>
+        </div> -->
+
+
+
+        <?php dynamic_sidebar('cus_port_project_sidebar'); ?>
 
     </div>
 </section>
