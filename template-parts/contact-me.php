@@ -8,7 +8,7 @@
             <h2>GET IN TOUCH</h2>
         </div>
     </div>
-    <div class="cus-port__contact-me d-flex cus-port__container main-gutter">
+    <!-- <div class="cus-port__contact-me d-flex cus-port__container main-gutter">
        <div class="cus-port__contact-me__my-say spacer d-flex">
         Thank you for visiting me! If you're interested in collaborating on a project or just want to connect, feel free to reach out to me.
         <br/><br/>I'd love to hear from you! You can also connect with me on LinkedIn, where I share updates and insights on the web development industry. 
@@ -28,5 +28,7 @@
             <i class="fa-solid fa-inbox"></i><span>Say Hello!</span>
         </a>
        </div>
-    </div>
+    </div> -->
+    <?php dynamic_sidebar('cus_port_contact_me_sidebar'); ?>
+
 </section>

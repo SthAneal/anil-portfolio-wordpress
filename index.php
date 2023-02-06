@@ -19,7 +19,7 @@ get_header();
     ?>
     <!-- fixed email address -->
     <div class="cus-port__fixed-email invert-me">
-      sth.anil87@gmail.com
+      <?php dynamic_sidebar('header-content-2'); ?>
     </div>
     <!-- scroll to top -->
     <span class="cus-port__scroll-to-top" id="cus-port__scroll-to-top" title="Click to Launch">

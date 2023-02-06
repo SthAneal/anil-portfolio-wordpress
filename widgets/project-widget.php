@@ -145,7 +145,7 @@
              {
                  $instance = array();
                  $instance['projectName'] = (!empty($new_instance['projectName'])) ? strip_tags($new_instance['projectName']) : '';
-                 $instance['description'] = (!empty($new_instance['description'])) ? strip_tags($new_instance['description']) : '';
+                 $instance['description'] = (!empty($new_instance['description'])) ? $new_instance['description'] : '';
                  $instance['projectUrl'] = (!empty($new_instance['projectUrl'])) ? strip_tags($new_instance['projectUrl']) : '';
                  $instance['tools'] = (!empty($new_instance['tools'])) ? strip_tags($new_instance['tools']) : '';
 

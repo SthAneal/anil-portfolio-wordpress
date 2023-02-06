@@ -320,6 +320,44 @@ if (!function_exists('cus_port_setup')) {
         }
         add_action('widgets_init', 'cus_port_project_sidebar');
 
+
+        /**
+         * side bar holder for Contact me section
+         * 
+         */
+        function cus_port_contact_me_sidebar()
+        {
+            // Default Sidebar
+            register_sidebar(
+                array(
+                    'name' => esc_html__('Contact me.', 'cus-port'),
+                    'id' => 'cus_port_contact_me_sidebar',
+                    'description' => esc_html__('Add Contact me details.', 'cus-port'),
+                    // 'before_widget' => '<div class="cus-port__work-item d-flex">',
+                    // 'after_widget' => '</div>',
+                ));
+        }
+        add_action('widgets_init', 'cus_port_contact_me_sidebar');
+
+
+        /**
+         * side bar holder for Footer's designed by section
+         * 
+         */
+        function cus_port_design_by_sidebar()
+        {
+            // Default Sidebar
+            register_sidebar(
+                array(
+                    'name' => esc_html__('Designed by.', 'cus-port'),
+                    'id' => 'cus_port_design_by_sidebar',
+                    'description' => esc_html__('Add designed by content.', 'cus-port'),
+                    'before_widget' => '<span>',
+                    'after_widget' => '</span>',
+                ));
+        }
+        add_action('widgets_init', 'cus_port_design_by_sidebar');
+
         /**
          *  ---- WIDGETS SECTIONS ----
          */
@@ -519,6 +557,13 @@ if (!function_exists('cus_port_setup')) {
          */
 
          include_once(get_stylesheet_directory().'/widgets/project-widget.php');
+
+
+          /**
+         * Initializing the contact me holder widget
+         */
+
+         include_once(get_stylesheet_directory().'/widgets/contact-me-widget.php');
         
          /**
          *  ---- WIDGETS SECTIONS ENDS----
