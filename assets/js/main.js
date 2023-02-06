@@ -11,6 +11,9 @@
 
         const scrollToTop = document.getElementById('cus-port__scroll-to-top');
 
+        const menuItems = document.querySelectorAll('#menu-header-menu >li > a');
+
+
         mobileViewMenuBtn.addEventListener('click', ()=>{
             // toggle the menu btn
             mobileViewMenuBtn.classList.contains('open') ? 
@@ -40,7 +43,6 @@
                 setTimeout(function(){
                     scrollToTop.classList.remove('cus-port__run-to-top');
                     scrollToTop.style.opacity = 0;
-                    console.log('reached to top');
                 },1000)
 
             }
@@ -53,6 +55,19 @@
             // reset the initial state of menu btn
             mobileViewMenuBtn.classList.remove('open');
         }
+
+
+        menuItems.forEach(function(item){
+            item.onclick = (e)=>{
+                e.preventDefault();
+                e.stopPropagation();
+                const targetId = item.getAttribute('href');
+                const targetElem = document.querySelector(targetId);
+
+                targetElem.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+            }
+        })
+
 
         // to manipulate the hover effect in my project section
         // const projectsWrapper = document.querySelectorAll('.cus-port__project-item__image');

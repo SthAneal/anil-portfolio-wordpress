@@ -2,7 +2,7 @@
     // this is my work section
 ?>
 
-<section class="cus-port__work-wrapper spacer-large">
+<section class="cus-port__work-wrapper spacer-large" id="my-work">
     <div class="main-gutter d-flex cus-port__container">
         <div class="cus-port__main-title">
             <h2>WHERE HAVE I WORKED</h2>

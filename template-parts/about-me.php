@@ -2,7 +2,7 @@
     // this is about me and I love frameworks section
 ?>
 
-<section class="cus-port__about-me-wrapper">
+<section class="cus-port__about-me-wrapper" id="about-me">
     <div class="cus-port__about-me main-gutter spacer-large d-flex cus-port__container">
         <?php
             //$mypost = get_page_by_title( 'About ME', '', 'page' );
@@ -16,7 +16,7 @@
     </div>
 </section>
 
-<section class="cus-port__my-skills-wrapper spacer">
+<section class="cus-port__my-skills-wrapper spacer" id="my-tools">
     <div class="cus-port__my-skills main-gutter spacer d-flex cus-port__container">
         <div class="cus-port__main-title">
             <h3 class="invert-me">Tech I use</h3>

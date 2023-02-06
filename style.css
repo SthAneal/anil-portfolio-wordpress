@@ -270,13 +270,13 @@ a:hover{
 	color: var(--p-white);
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
 	:root {
 		font-size: 12px;
 	}
 }
 
-@container mainHeader (min-width:426px) {
+@container mainHeader (min-width:768px) {
 	.cus-port__main-header__mobile-view {
 		display: none;
 	}
@@ -287,7 +287,7 @@ a:hover{
 	}
 }
 
-@container mainHeader (max-width:425px) {
+@container mainHeader (max-width:767px) {
 	.cus-port__main-header__mobile-view__menu-btn {
 		font-size: 1.5rem;
 		cursor: pointer;
@@ -320,7 +320,7 @@ a:hover{
 		background: var(--p-blue);
 		top: 60px;
 		right: -100%;
-		opacity: 0.9;
+		opacity: 0.98;
 	}
 
 	.cus-port__main-header__basic-info {
@@ -695,6 +695,7 @@ main{
 	margin-bottom: 60px;
 	font-weight: 200;
 	font-size: 3rem;
+	line-height: 4rem;
 }
 
 /* my skill section */
@@ -1133,7 +1134,7 @@ a.cus-port__contact-me__my-link__item > span {
 	}
 
 	.cus-port__scroll-to-top{
-		right: 15px !important;
+		right: 5px !important;
 	}
 }
 
@@ -1152,7 +1153,7 @@ a.cus-port__contact-me__my-link__item > span {
 	align-items: center;
 	height: 50px;
 	width: 50px;
-	right: 30px;
+	right: 25px;
 	bottom: 50px;
 	font-size: 2rem;
 	border-radius: 100px;

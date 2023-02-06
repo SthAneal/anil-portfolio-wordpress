@@ -1,7 +1,7 @@
 <?php 
     // intro section begins.
 ?>
-<section class="cus-port__intro-wrapper cus-port__container d-flex spacer-large">
+<section class="cus-port__intro-wrapper cus-port__container d-flex spacer-large" id="home">
     <!-- <div class="cus-port__intro-quote d-flex">
         <div class="cus-port__intro-quote-first-text"><span class="invert-me">Front</span>&nbsp;<span>End</span></div>
         <div><span class="cus-port__intro-quote-second-text">Back End</span> <span class="cus-port__intro-quote-third-text">&</span></div>

@@ -2,7 +2,7 @@
     // this is my project section
 ?>
 
-<section class="cus-port__project-wrapper spacer-large">
+<section class="cus-port__project-wrapper spacer-large" id="my-project">
     <div class="main-gutter d-flex cus-port__container">
         <div class="cus-port__main-title">
             <h2>PROJECTS I HAVE DONE</h2>

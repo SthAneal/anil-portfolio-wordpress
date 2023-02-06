@@ -2,7 +2,7 @@
     // this is contact me section
 ?>
 
-<section class="cus-port__contact-me-wrapper spacer-large">
+<section class="cus-port__contact-me-wrapper spacer-large" id="contact-me">
     <div class="main-gutter d-flex cus-port__container">
         <div class="cus-port__main-title">
             <h2>GET IN TOUCH</h2>
