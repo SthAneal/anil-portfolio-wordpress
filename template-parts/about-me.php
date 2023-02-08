@@ -4,13 +4,11 @@
 
 <section class="cus-port__about-me-wrapper" id="about-me">
     <div class="cus-port__about-me main-gutter spacer-large d-flex cus-port__container">
-        <?php
-            //$mypost = get_page_by_title( 'About ME', '', 'page' );
-            ?>
         <div>
         <?php 
-            echo apply_filters('the_content', get_post(18)->post_content);
+            // echo apply_filters('the_content', get_post(18)->post_content);
             //the_content($mypost); 
+            dynamic_sidebar('cus_port_about_me_sidebar'); 
         ?>
         </div>
     </div>

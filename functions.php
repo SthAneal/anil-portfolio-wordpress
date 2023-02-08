@@ -228,6 +228,25 @@ if (!function_exists('cus_port_setup')) {
 
 
          /**
+         * side bar holder for about me section
+         * 
+         */
+        function cus_port_about_me_sidebar()
+        {
+            // Default Sidebar
+            register_sidebar(
+                array(
+                    'name' => esc_html__('About me excerpt', 'cus-port'),
+                    'id' => 'cus_port_about_me_sidebar',
+                    'description' => esc_html__('Add About me content', 'cus-port'),
+                    'before_widget' => '<div">',
+                    'after_widget' => '</div>',
+                ));
+        }
+        add_action('widgets_init', 'cus_port_about_me_sidebar');
+
+
+         /**
          * side bar holder for skill tools i.e. tech i use for frontend
          * 
          */
