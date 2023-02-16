@@ -38,11 +38,31 @@
 
                     <div class="cus-port__project-item d-flex spacer-large">
                         <div class="cus-port__project-item__image d-flex">
-                            <iframe 
-                            width="100%"
-                            height="100%"
-                            src="<?php echo $projectUrl; ?>"
-                            ></iframe>
+                          
+
+                            <?php 
+                            
+                                // if scheme is not https then just display the http link; 
+                                $url = parse_url($projectUrl);
+                                if($url['scheme'] === 'https'){
+                                   ?>
+                                      <iframe 
+                                        width="100%"
+                                        height="100%"
+                                        src="<?php echo $projectUrl ?>"
+                                        ></iframe>
+                                   <?php
+
+                                }else{
+                                    ?>
+                                    <div class="d-flex" style="justify-content:center;">
+                                        <h2>
+                                            <a href="<?php echo $projectUrl ?>" target="_blank" class="invert-me"><?php echo $projectUrl; ?></a>
+                                        </h2>
+                                    </div>
+                                    <?php 
+                                }
+                            ?>
                         </div>
                         <div class="cus-port__project-item__details d-flex">
                             <div class="cus-port__project-item__title d-flex">
